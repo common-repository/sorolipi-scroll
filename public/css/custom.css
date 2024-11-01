@@ -1,0 +1,18 @@
+.scroll-to-top{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999;
+  display: none;
+}
+.scroll-to-top a {
+  background-color: rgba(19, 113, 234, 0.67);
+  color: #fff;
+  padding: 10px;
+  border-radius: 35px 35px 0px 0px;
+}
+.scroll-to-top a:hover {
+  color: #151414;
+  background-color: rgba(19, 113, 234, 0.57);
+  transition: cubic-bezier(.22,.61,.36,1);
+}
